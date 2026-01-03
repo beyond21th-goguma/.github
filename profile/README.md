@@ -429,7 +429,7 @@ develop & main branch로 merge할 때에는 pull request가 필요합니다. pul
 <details>
 <summary style = " font-size:1.3em;">진희헌 </summary>
 <div markdown="1">
-회고 입력
+이번 프로젝트에서 JWT 기반 보안 시스템을 직접 구현했다. 처음 도전해보는 보안 영역이었기에 Access Token과 Refresh Token의 역할과 차이를 이해하는 것부터 시작했고, Access Token은 탈취 시 피해를 최소화하기 위해 짧은 수명을 가져야 하며 Refresh Token은 잦은 재로그인을 방지하기 위해 상대적으로 긴 수명을 가져야 한다는 점, 그리고 TTL(Time To Live)이 토큰의 유효 기간을 서버 차원에서 통제하는 핵심 개념이라는 것을 알게 되었다. 설계 과정에서는 회원가입, 로그인, 로그아웃 로직을 하나의 컨트롤러와 서비스에 두는 것이 과연 적절한가라는 고민을 하게 되었고, 사용자 도메인과 인증 도메인을 user와 auth로 분리하는 것이 역할과 책임 측면에서 더 바람직하다는 판단에 이르렀다. 로그아웃을 단순히 “토큰을 삭제하는 행위”로 생각했지만, JWT는 이미 발급된 토큰을 서버에서 직접 회수할 수 없다는 구조적 한계를 가진다는 점을 이해하게 되었고, 이를 해결하기 위해 Redis에 Blacklist를 저장하여 Access Token의 남은 TTL 동안만 요청을 차단하는 방식으로 로그아웃을 구현했다.
 </div>
 </details>
 
