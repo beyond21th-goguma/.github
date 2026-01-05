@@ -487,7 +487,8 @@ develop & main branch로 merge할 때에는 pull request가 필요합니다. pul
 <details>
 <summary style = " font-size:1.3em;"> 정규원 </summary>
 <div markdown="1">
-회고 입력
+프론트로서 Vue는 처음 경험한 부분이라 살짝 익숙하지 않고 어려움이 많았었는데, 이번 프로젝트를 통해 한츰 더 익숙해진 계기가 되었던 것 같습니다.
+
 </div>
 </details>
 
