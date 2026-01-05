@@ -502,7 +502,11 @@ develop & main branch로 merge할 때에는 pull request가 필요합니다. pul
 <details>
 <summary style = " font-size:1.3em;"> 정하경 </summary>
 <div markdown="1">
-회고 입력
+이번 프로젝트에서 SearchBar, 동작 애니메이션이 적용된 텍스트, 중고거래 아이콘(Buy/Sell) 컴포넌트를 구현하고, 이를 MainPage에 적용한 뒤 라우터 연결까지 진행함.
+
+초기에는 HTML, JavaScript, CSS를 하나의 파일에 작성하려 했으나, 팀원의 권유로 컴포넌트 단위로 분리하여 개발하게 되었음. 그 과정에서 페이지는 pages, 재사용 가능한 UI는 components로 분리하는 구조가 유지보수 측면에서 유리하다는 점을 체감함.
+
+또한 프로젝트 시작 단계에서 라우터 구조를 미리 고려하지 않고 개발을 진행하여, 이후 라우터를 적용하는 과정에서 어려움을 겪었음. 이 경험을 통해 초기에 라우터를 설계해 두는 것이 전체 화면 흐름을 이해하고 개발하는 데 중요하다는 점을 알게 되었음.
 </div>
 </details>
 
