@@ -1,7 +1,14 @@
 # 2팀: 고구마 마켓
 ###  **고객과 구매자가 마주하는 마켓**
-
-</br>
+<tr align="center">
+  <td>
+    <img 
+      src="https://github.com/user-attachments/assets/32394f9e-025b-4717-af12-5d19634bb333"
+      alt="image"
+      width="200"
+    />
+  </td>
+</tr>
 
 ----
 
@@ -69,11 +76,35 @@
 - 프론트엔드와 백엔드를 분리하여 개발함으로써 **실제 서비스와 유사한 개발 프로세스**를 경험하고자 하였습니다.
 - 대중적으로 익숙한 서비스(당근마켓)를 기반으로 하여 **기획과 UX에 대한 이해도를 높이고 구현에 집중**할 수 있다고 판단하였습니다.
 ### 주요 기능
-- 보안
-- ..
-- ..
-- ..
-- ..
+> 메인 페이지
+- 서비스의 전체 흐름을 한눈에 확인할 수 있는 메인 화면 구성
+- 최신 등록 상품 및 중고 거래 목록 노출
+- 공통 헤더 및 검색 바 제공
+> 중고 거래 게시판 (상품 목록)
+- 등록된 중고 물품 목록 조회
+- 카드형 UI를 활용한 상품 정보 표시
+    - 상품 이미지
+    - 제목
+    - 가격
+    - 등록 시간
+- 카테고리별 상품 분류 기능
+> 상품 등록 기능
+- 사용자가 판매하고자 하는 중고 물품 등록
+- 상품 정보 입력
+    - 제목
+    - 가격
+    - 설명
+    - 카테고리
+- 등록 완료 시 목록 페이지에 즉시 반영
+> 검색 기능
+- 키워드 기반 상품 검색
+- 제목 기준 검색을 통한 원하는 상품 빠른 탐색
+- 검색 결과에 따른 상품 목록 동적 렌더링
+> 로그인 기능
+- 사용자 인증을 위한 로그인 기능 구현
+- 로그인 상태에 따른 기능 접근 제어
+    - 로그인 사용자만 상품 등록 가능
+- 인증 정보 기반 사용자 식별
 
 </br>
 
@@ -125,9 +156,11 @@
 
 ## 5. 프로젝트 구조
 
-### 패키지 구조
-<img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/a1b9a8b0-8bcc-49f5-9f52-da3f71b81cc3" />
+### Back-end 구조
+<img width="456" height="931" alt="image" src="https://github.com/user-attachments/assets/4b28d522-8392-4971-8588-f9a90cf7b0c9" />
 
+### Front-end 구조
+<img width="526" height="808" alt="image" src="https://github.com/user-attachments/assets/7f29733a-05a7-4643-b2fd-392c8537a81b" />
 
 </br>
 
@@ -137,13 +170,45 @@
 
 ## 6. 프로젝트 기획
 ### 요구사항 명세서
-<img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/7cfb39ab-030f-4816-97d8-e69638a1d609" />
+<img width="1247" height="666" alt="image" src="https://github.com/user-attachments/assets/c2fa2cbe-d7e0-41c9-86c1-3a947e65f21e" />
 
 ### 스토리보드(figma)
-<img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/61e96c56-d1f2-4a8f-a3a6-7856696fd4c9" />
+
+<details>
+<summary style = " font-size:1.3em;"> 더 보기 </summary>
+<div markdown="1">
+
+  <img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/f1a522b2-fed6-4b33-b60b-3e1193a54294" />
+
+  <img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/cf0a2472-af26-45e6-9fa8-6e7415f7d00d" />
+
+  <img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/377771ae-0f05-4423-a0d2-796593018dc9" />
+
+  <img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/e8606eaa-5d3d-4a80-bd23-4913b85b1b75" />
+
+  <img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/377705a7-34bd-4c70-9072-e84a7d2f524b" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/6903e237-997c-449c-95ad-75d4759c0c98" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/f7fc19af-7ef2-44c2-9f4c-1ef0f0136257" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/97b29b9b-d771-4754-aab4-8d3b61168263" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/5a5a761e-e296-4637-ba14-089b26d4645b" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/b51a4949-b128-4420-9b40-27dc7a91f937" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/d744377d-a6e3-43e2-9a52-b209bc62a63b" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/0fc00428-52e4-417b-b08b-462dfe141e3b" />
+
+<img width="1780" height="980" alt="image" src="https://github.com/user-attachments/assets/eeae6d6b-5e4d-4ee3-9088-921527708984" />
+
+</div>
+</details>
 
 ### 테스트 케이스 
-<img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/cca6206d-6edf-4086-bdf5-6617f5f80861" />
+<img width="1728" height="475" alt="image" src="https://github.com/user-attachments/assets/d9725c66-8cb1-464d-9244-a27affe82d53" />
 
 ### 화면구현코드소스 
 <img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/afb81a99-4f31-4ec9-9a37-e702a23aaf73" />
