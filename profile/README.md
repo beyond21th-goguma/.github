@@ -170,7 +170,7 @@
 
 ## 6. 프로젝트 기획
 ### 요구사항 명세서
-<img width="1247" height="666" alt="image" src="https://github.com/user-attachments/assets/c2fa2cbe-d7e0-41c9-86c1-3a947e65f21e" />
+<img width="1204" height="618" alt="image" src="https://github.com/user-attachments/assets/aa64cb70-deb3-459d-a7b8-f52ca373eee9" />
 
 ### 스토리보드(figma)
 
@@ -208,11 +208,10 @@
 </details>
 
 ### 테스트 케이스 
-<img width="1728" height="475" alt="image" src="https://github.com/user-attachments/assets/d9725c66-8cb1-464d-9244-a27affe82d53" />
+<img width="1481" height="383" alt="image" src="https://github.com/user-attachments/assets/ade6ef50-1ea9-46ba-a80b-a16778ceda9e" />
 
 ### 화면구현코드소스 
 <img width="611" height="492" alt="image" src="https://github.com/user-attachments/assets/afb81a99-4f31-4ec9-9a37-e702a23aaf73" />
-
 
 </br>
 
